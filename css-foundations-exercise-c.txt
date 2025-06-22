@@ -1,0 +1,43 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CSS Foundations Exercise C</title>
+<style>
+  /* Unique class for the first button */
+  .first-btn {
+    background-color: black;   /* black background */
+    color: white;              /* white text color */
+  }
+
+  /* Unique class for the second button */
+  .second-btn {
+    background-color: yellow;    /* yellow background */
+  }
+
+  /* Grouping selector for shared styles: font-size and font-family */
+  .first-btn, .second-btn {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+  }
+</style>
+</head>
+<body>
+
+<button class="first-btn">First Button</button>
+<button class="second-btn">Second Button</button>
+
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+

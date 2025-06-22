@@ -1,0 +1,56 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class and ID Selectors</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p class="odd">Number 1 - I'm a class!</p>
+    <div id="second">Number 2 - I'm one ID.</div>
+    <p class="odd third">Number 3 - I'm a class, but cooler!</p>
+    <div id="fourth" class="fourth">Number 4 - I'm another ID.</div>
+    <p class="odd">Number 5 - I'm a class!</p>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+/* 1. All odd elements with class 'odd' should have a yellow background */
+.odd {
+  background-color: yellow;
+}
+
+/* 2. The second element (ID 'second') has blue text and a font size of 36px */
+#second {
+  color: blue;
+  font-size: 36px;
+}
+
+/* 3. The third element has a font size of 24px, set via class 'third' */
+.third {
+  font-size: 24px;
+}
+
+/* 4. The fourth element (ID 'fourth') has:
+   - background color red
+   - font size 24px (via class 'fourth')
+   - font weight bold (via ID 'fourth')
+*/
+#fourth {
+  font-weight: bold;
+  background-color: red;
+}
+
+.fourth {
+  font-size: 24px;
+}
+
+** end of styles.css **
+

@@ -1,0 +1,45 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Foundations Exercise A</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Div element with text, styled via external CSS -->
+  <div>This is a styled div</div>
+
+  <!-- Paragraph element with text, styled internally -->
+  <p>This is a styled paragraph</p>
+
+  <!-- Button element with text, styled inline -->
+  <button style="background-color: orange; font-size: 18px;">Click Me</button>
+
+  <!-- Internal CSS for the paragraph -->
+  <style>
+    p {
+      font-size: 18px;
+      color: white;
+    }
+  </style>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+/* styles.css */
+div {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+** end of styles.css **
+
